@@ -27,7 +27,7 @@ public class Disparar : MonoBehaviour
 
     void Shoot()//Dispara y reduce la balas
     {
-        if (Input.GetButtonDown("Fire1") && inventory.myStuff.bullets > 0)
+        if (Input.GetButtonDown("Fire1") && inventory.myStuff.GetBalas() > 0)
         {
             //Crear una bala y ponerla adelante del player
             GameObject bulletInstance = Instantiate(bulletPrefab, firePosition.position + new Vector3(0,0,0.75f), firePosition.rotation) as GameObject;

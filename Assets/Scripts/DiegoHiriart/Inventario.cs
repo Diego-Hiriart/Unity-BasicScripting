@@ -36,17 +36,24 @@ public class Inventario : MonoBehaviour
         {
             return this.bullets;
         }
+
+        public int GetCohetes()
+        {
+            return this.rockets;
+        }
     }
 
 
     // Creacion de objetos tipo Stuff
-    public Stuff myStuff = new Stuff(25, 5, 5);
+    public Stuff myStuff = new Stuff(25, 5, 10);
 
     public Stuff myOtherStuff = new Stuff(25, 1.5f);
 
     void Start()
     {
         Debug.Log(myStuff.bullets);
+        Debug.Log(myStuff.grenades);
+        Debug.Log(myStuff.rockets);
     }
 
 }
