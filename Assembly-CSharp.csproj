@@ -58,10 +58,12 @@
     <Compile Include="Assets\Scripts\DiegoHiriart\KeyInputButtonInput.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\OtroScriptMas.cs" />
     <Compile Include="Assets\Scripts\Preexistentes\Punch.cs" />
+    <Compile Include="Assets\Scripts\DiegoHiriart\DestruccionProyectil.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\AxisRaw.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\OtraClase.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\Loops.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\TranslateYRotate.cs" />
+    <Compile Include="Assets\Scripts\DiegoHiriart\Switch.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\EnableComponentes.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\InterpolacionLineal.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\AxisEjemplo.cs" />
@@ -74,6 +76,8 @@
     <Compile Include="Assets\Scripts\DiegoHiriart\Condicionales.cs" />
     <Compile Include="Assets\Scripts\Preexistentes\ScrollingUVs.cs" />
     <Compile Include="Assets\Scripts\Preexistentes\AudioOffset.cs" />
+    <Compile Include="Assets\Scripts\DiegoHiriart\InvokeRepeating.cs" />
+    <Compile Include="Assets\Scripts\DiegoHiriart\Enumeracion.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\GetComponent.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\MouseDown.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\AlcanceYModificadoresAcceso.cs" />
@@ -85,20 +89,20 @@
     <Compile Include="Assets\Scripts\DiegoHiriart\DeltaTime.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\OtroScript.cs" />
     <Compile Include="Assets\Image Effects\Vignetting.cs" />
+    <Compile Include="Assets\Scripts\DiegoHiriart\Instantiate.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\DualAxis.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\Destroy.cs" />
     <Compile Include="Assets\Scripts\Preexistentes\Rotator.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\UpdateYFixedUpdate.cs" />
     <Compile Include="Assets\Scripts\Preexistentes\CaptureNormals.cs" />
     <Compile Include="Assets\Image Effects\ColorCorrectionCurves.cs" />
-    <Compile Include="Assets\Scripts\DiegoHiriart\AwakeYStart.cs" />
-    <Compile Include="Assets\Scripts\DiegoHiriart\Instantiate.cs" />
-    <Compile Include="Assets\Scripts\DiegoHiriart\DestruccionProyectil.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\Arrays.cs" />
     <Compile Include="Assets\Scripts\DiegoHiriart\Invocar.cs" />
-    <Compile Include="Assets\Scripts\DiegoHiriart\InvokeRepeating.cs" />
-    <Compile Include="Assets\Scripts\DiegoHiriart\Enumeracion.cs" />
-    <Compile Include="Assets\Scripts\DiegoHiriart\Switch.cs" />
+    <Compile Include="Assets\Scripts\DiegoHiriart\AwakeYStart.cs" />
+    <Compile Include="Assets\Scripts\DiegoHiriart\ScriptJugadorHiriart.cs" />
+    <Compile Include="Assets\Scripts\DiegoHiriart\ControllerCamara.cs" />
+    <Compile Include="Assets\Scripts\DiegoHiriart\SeguirPlayer.cs" />
+    <Compile Include="Assets\Scripts\DiegoHiriart\UIAmmo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Image Effects\_Sources\Shaders\Tonemapper.shader" />

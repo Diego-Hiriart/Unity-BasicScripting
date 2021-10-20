@@ -37,6 +37,11 @@ public class Inventario : MonoBehaviour
             return this.bullets;
         }
 
+        public int GetGranadas()
+        {
+            return this.grenades;
+        }
+
         public int GetCohetes()
         {
             return this.rockets;
