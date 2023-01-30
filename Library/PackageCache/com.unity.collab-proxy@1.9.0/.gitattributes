@@ -1,0 +1,86 @@
+* text=auto
+
+# Unity files
+*.meta -text merge=unityyamlmerge diff
+*.unity -text merge=unityyamlmerge diff
+*.asset -text merge=unityyamlmerge diff
+*.prefab -text merge=unityyamlmerge diff
+*.mat -text merge=unityyamlmerge diff
+*.anim -text merge=unityyamlmerge diff
+*.controller -text merge=unityyamlmerge diff
+*.overrideController -text merge=unityyamlmerge diff
+*.physicMaterial -text merge=unityyamlmerge diff
+*.physicsMaterial2D -text merge=unityyamlmerge diff
+*.playable -text merge=unityyamlmerge diff
+*.mask -text merge=unityyamlmerge diff
+*.brush -text merge=unityyamlmerge diff
+*.flare -text merge=unityyamlmerge diff
+*.fontsettings -text merge=unityyamlmerge diff
+*.guiskin -text merge=unityyamlmerge diff
+*.giparams -text merge=unityyamlmerge diff
+*.renderTexture -text merge=unityyamlmerge diff
+*.spriteatlas -text merge=unityyamlmerge diff
+*.terrainlayer -text merge=unityyamlmerge diff
+*.mixer -text merge=unityyamlmerge diff
+*.shadervariants -text merge=unityyamlmerge diff
+# Image formats
+*.psd -text
+*.jpg -text
+*.png -text
+*.gif -text
+*.bmp -text
+*.tga -text
+*.tiff -text
+*.tif -text
+*.iff -text
+*.pict -text
+*.dds -text
+*.xcf -text
+# Audio formats
+*.mp3 -text
+*.ogg -text
+*.wav -text
+*.aiff -text
+*.aif -text
+*.mod -text
+*.it -text
+*.s3m -text
+*.xm -text
+# Video formats
+*.mov -text
+*.avi -text
+*.asf -text
+*.mpg -text
+*.mpeg -text
+*.mp4 -text
+# 3D formats
+*.fbx -text
+*.obj -text
+*.max -text
+*.blend -text
+*.dae -text
+*.mb -text
+*.ma -text
+*.3ds -text
+*.dfx -text
+*.c4d -text
+*.lwo -text
+*.lwo2 -text
+*.abc -text
+*.3dm -text
+# Build
+*.dll -text
+*.pdb -text
+*.mdb -text
+# Packaging
+*.zip -text
+*.7z -text
+*.gz -text
+*.rar -text
+*.tar -text
+# Collapse Unity-generated files on GitHub
+*.asset linguist-generated
+*.mat linguist-generated
+*.meta linguist-generated
+*.prefab linguist-generated
+*.unity linguist-generated
